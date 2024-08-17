@@ -5,7 +5,7 @@ function createIframe() {
   const iframe = document.createElement("iframe");
   iframe.src = "https://chatgpt.hunet.ai/chat-gpt/Test%20User?lang=en"; 
   // Assuming the lang=en parameter sets the language
-  iframe.style.width = "50%"; // Make iframe responsive to screen width
+  iframe.style.width = "70%"; // Make iframe responsive to screen width
   iframe.style.height = "90%"; // Make iframe responsive to screen height
   iframe.frameBorder = "0";
   iframe.scrolling = "no";
